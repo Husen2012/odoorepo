@@ -19,15 +19,15 @@ A production-ready, enhanced Docker Compose setup for Odoo 18 with PostgreSQL, R
 
 ```bash
 cd /opt
-curl -s https://raw.githubusercontent.com/YOUR_USERNAME/enhanced-odoo-18-docker/main/run.sh | sudo bash -s odoo18 10018 20018 6383 6436
+curl -s https://raw.githubusercontent.com/Husen2012/odoorepo/main/run.sh | sudo bash -s odoo18 10018 20018 6383 6436
 ```
 
 ### Manual Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/enhanced-odoo-18-docker.git
-cd enhanced-odoo-18-docker
+git clone https://github.com/Husen2012/odoorepo.git
+cd odoorepo
 
 # Make the script executable
 chmod +x run.sh

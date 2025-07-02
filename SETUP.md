@@ -15,15 +15,15 @@ Before running the setup, ensure you have:
 
 ```bash
 cd /opt
-curl -s https://raw.githubusercontent.com/YOUR_USERNAME/enhanced-odoo-18-docker/main/run.sh | sudo bash -s odoo18 10018 20018 6383 6436
+curl -s https://raw.githubusercontent.com/Husen2012/odoorepo/main/run.sh | sudo bash -s odoo18 10018 20018 6383 6436
 ```
 
 ### Method 2: Manual Installation
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/enhanced-odoo-18-docker.git
-cd enhanced-odoo-18-docker
+git clone https://github.com/Husen2012/odoorepo.git
+cd odoorepo
 
 # 2. Make script executable
 chmod +x run.sh

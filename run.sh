@@ -101,7 +101,7 @@ if ! docker compose version &> /dev/null; then
 fi
 
 print_status "Cloning repository..."
-git clone --depth=1 https://github.com/HaithamSaqr/odoo-18-docker-compose-pgbouncer.git "$INSTANCE_NAME"
+git clone --depth=1 https://github.com/Husen2012/odoorepo.git "$INSTANCE_NAME"
 
 cd "$INSTANCE_NAME"
 
