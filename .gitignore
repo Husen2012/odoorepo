@@ -1,0 +1,50 @@
+# Odoo data directories
+postgresql/
+sessions/
+addons/custom/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+volumes/
+
+# Backup files
+*.sql
+*.dump
+*.backup
+backup/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if any)
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local configuration overrides
+docker-compose.override.yml
+local.yml
